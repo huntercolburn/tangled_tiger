@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+html, body{
+    height: 100%;
+    background: linear-gradient(to bottom, #46a2da, white) !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+body{
+    color: black; 
+    
+}
+
+h1{
+    text-align: center;
+    color: black ; 
+    padding: 10px;
+    font-size: 30px !important ;
+    text-decoration: underline;
+    font-weight: bold !important ;
+    
+}
+h2{
+    text-align: center;
+    color: black ; 
+    padding: 40px;
+    font-size: 80px !important;
+    font-weight: bold !important ;
+    
+}
+
+.navbar {
+    background-color: transparent ;
+}
+
+.navbar-brand {
+    border-radius: 15px;
+    padding: 10px;
+}
+div{
+    
+    font-size: 20px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    
+}
+.boxed{
+    padding: 20px 30px;
+    margin: auto; /* Center the box within the container */
+    width: 100%;
+    max-width: 600px; /* Set a max width for the form */
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: fit-content;
+}
+label{
+    font-size: 26px ;
+}
+footer{
+    background: transparent !important; 
+}
